@@ -1,0 +1,14 @@
+# dependencies
+node_modules/
+dist/
+pnpm-lock.yaml
+yarn.lock
+
+# env & secrets
+.env
+.env.*.local
+*.key
+*.pem
+
+# misc
+file.out/
