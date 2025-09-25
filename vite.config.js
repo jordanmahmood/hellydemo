@@ -12,14 +12,8 @@ export default defineConfig({
             input: {
                 main: resolve(__dirname, './index.html'),
             },
-    server: {
-        port: 3000,
-        open: true,
-        watch: {
-            usePolling: true,
-        },
                 },
             },
-        },
+
 
 });
