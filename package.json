@@ -1,6 +1,7 @@
 {
   "name": "helly-demo",
   "private": true,
+  "main": "index.html",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
