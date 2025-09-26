@@ -3589,7 +3589,7 @@ blockquote {
 
 .div-block {
     z-index: 2;
-    opacity: .5 !important;
+    opacity: .75 !important;
     position: absolute;
     inset: auto auto 15% 10%;
     overflow: hidden;
