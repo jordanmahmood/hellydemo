@@ -202,7 +202,7 @@ function App() {
 
                         {/* Modal Container */}
                         <motion.div
-                            className="fixed z-20 bottom-full bg-slate-800/95 backdrop-blur-sm border border-slate-600/30 rounded-3xl p-8 max-w-lg w-full shadow-2xl"
+                            className="fixed z-20 bottom-full max-[479px]:bottom-auto bg-slate-800/95 backdrop-blur-sm border border-slate-600/30 rounded-3xl p-8 max-w-lg w-full shadow-2xl "
                             initial={{ scale: 0.8, opacity: 0 }}
                             animate={{ scale: 1, opacity: 1 }}
                             exit={{ scale: 0.8, opacity: 0 }}
@@ -230,7 +230,7 @@ function App() {
                                         <Odin
                                             status={odinStatus}
                                             color={odinColor}
-                                            className="h-32 w-32 sm:h-48 sm:w-48"
+                                            className="h-48 w-48 sm:h-32 sm:w-32"
                                             onLoad={() => console.log('Helly is ready!')}
                                         />
                                     </div>

@@ -5533,8 +5533,7 @@ blockquote {
         grid-row-gap: 2rem;
         justify-content: center;
         align-items: center;
-        margin-left: auto;
-        margin-right: auto;
+
     }
 
     .hero-image-wrapper {
@@ -5814,7 +5813,7 @@ blockquote {
 
     .div-block {
         z-index: -9;
-        opacity: .2;
+        opacity: 1;
         width: 7.5rem;
         bottom: 7.5%;
     }
@@ -5825,6 +5824,7 @@ blockquote {
 
     .enrollment-heading {
         width: 360px;
+        font-size: 2.5rem;
     }
 
     .faq-header {
