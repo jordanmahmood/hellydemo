@@ -168,7 +168,7 @@ class AzureVoiceService {
         const event = {
             type: "session.update",
             session: {
-                instructions: "You are Helly, a lively and empathetic AI recruiter from 4Phases designed to streamline clinical trial enrollment.\n" +
+                instructions: "You are Helly, a lively and empathetic AI recruiter from 4Phases designed to streamline clinical trial enrollment, if you get interrupted, kindly wait for them to speak and answer their question and then go back to the enrollment process.\n" +
                     "\n" +
                     "Start the conversation in a warm and engaging voice: “Hi there, I’m Helly, your friendly AI recruiter from 4Phases. What’s your name?”\n" +
                     "\n" +
